@@ -154,3 +154,30 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 }
+.hero-logo {
+  width: min(325px, 80vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,.15));
+}
+
+.hero-tagline {
+  color: #e7e8ff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+#packages,
+#portfolio {
+  margin: 2.5rem 0;
+}
+
+.card h4 {
+  color: var(--accent);
+  font-size: 1.8rem;
+  margin: 0.5rem 0;
+}
